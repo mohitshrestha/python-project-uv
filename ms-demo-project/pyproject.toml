@@ -1,0 +1,29 @@
+[project]
+name = "ms-demo-project"
+version = "0.1.0"
+description = "Mohit Shrestha's Demo Project"  # Add your description here
+readme = "README.md"
+authors = [
+    { name = "Mohit Shrestha", email = "mohitshrestha@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "python-dotenv>=1.1.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.1",
+    "pytest>=8.4.1",
+    "rich>=14.1.0",
+    "ruff>=0.12.9",
+]
+
+[project.scripts]
+ms-demo-project = "ms_demo_project:hello"
+
+[build-system]
+requires = ["uv_build>=0.8.12,<0.9.0"]
+build-backend = "uv_build"
+
+
