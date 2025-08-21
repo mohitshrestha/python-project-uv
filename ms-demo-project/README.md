@@ -155,3 +155,9 @@ uv run python -m pytest tests
 - [uv](https://docs.astral.sh/uv/) for running modules (optional)
 - `rich` for formatted printing and logging
 - `pytest` for testing
+
+### 10. Git Tricks Reference
+
+For guidance on undoing a pushed commit safely or forcefully, see [GitHub Tricks](../github_tricks.md).
+
+- This file contains concise instructions for `git revert` and `git reset --hard` with best practices.

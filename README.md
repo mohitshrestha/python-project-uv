@@ -9,6 +9,12 @@ To get started with **UV** and learn how to initialize your project, manage depe
 
 - [**UV Setup and Usage Guide**](UV_SETUP_AND_USAGE_GUIDE.md) - In-depth instructions on setting up and using **UV** in your Python project.
 
+### 10. Git Tricks Reference
+
+For guidance on undoing a pushed commit safely or forcefully, see [GitHub Tricks](./github_tricks.md).
+
+- This file contains concise instructions for `git revert` and `git reset --hard` with best practices.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
